@@ -8,6 +8,7 @@ export const getAllUsers = async (req, res, next) => {
   } catch (err) {
     return console.log(err);
   }
+
   if (!users) {
     return res.status(500).json({ message: "Unexpected Error Occured" });
   }

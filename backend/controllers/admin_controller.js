@@ -62,7 +62,7 @@ export const adminLogin = async (req, res, next) => {
 
   return res
     .status(200)
-    .json({ message: "Authentication Complete", token, id: existingAdmin._id });
+    .json({ message: "Authentication Complete",token, id: existingAdmin._id });
  };
 
 export const getAdmins = async (req, res, next) => {

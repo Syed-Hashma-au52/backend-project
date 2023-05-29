@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRouter from "./routes/user_routes";
 import adminRouter from "./routes/admin_routes";
-import movieRouter from "./routes/movie_routes";
-import bookingsRouter from "./routes/booking_routes";
+ import movieRouter from "./routes/movie_routes";
+ import bookingsRouter from "./routes/booking_routes";
 dotenv.config();
 
 const app = express();

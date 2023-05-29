@@ -1,8 +1,8 @@
 import express from "express";
 import {
   addMovie,
-  getAllMovies,
-  getMovieById,
+ getAllMovies,
+   getMovieById,
 } from "../controllers/movie_controller";
 
 const movieRouter = express.Router();
