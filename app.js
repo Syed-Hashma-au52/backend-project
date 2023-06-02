@@ -22,7 +22,7 @@ mongoose
     )
 
 .then(() =>
-app.listen(8000, () =>
+app.listen(5000, () =>
   console.log("Connected To Database And Server is running")
 )
 )
